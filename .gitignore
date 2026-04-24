@@ -1,0 +1,64 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files (secrets)
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+coverage.xml
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+#sonarqube-quality-assistant specific
+.sonar/
+.scannerwork/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SonarQube scanner files
+.scannerwork/
+
+# Local config overrides
+local.settings.json
+settings.local.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# MCP generated runtime files (if any)
+*.pid
+*.sock
