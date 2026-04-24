@@ -230,7 +230,7 @@ def register_tools(mcp: FastMCP) -> None:
     @mcp.tool()
     async def find_critical_issues(
         project_key: str,
-        severity: Literal["BLOCKER", "CRITICAL", "MAJOR", "MINOR", "INFO"],
+        severity: Literal["BLOCKER", "CRITICAL", "MAJOR", "MINOR", "INFO"]| None = None,
         issue_type: Literal["BUG", "VULNERABILITY", "CODE_SMELL"] | None = None,
         assigned_to: str | None = None,
     ) -> str:
