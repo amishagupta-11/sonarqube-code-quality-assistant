@@ -10,7 +10,7 @@
 - Security and quality risk analysis
 - Executive quality summaries
 - AI-generated remediation recommendations
-- 
+  
 ## Project Goals
 
 - Connect an AI assistant to SonarQube through a reusable MCP server
